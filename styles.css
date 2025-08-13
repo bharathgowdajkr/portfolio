@@ -621,4 +621,24 @@
     .interactive::before{ display:none !important; }
   }
   
+  /* Responsive tweaks */
+  @media (max-width: 1200px){
+    .about-avatar{ width: 280px; height: 360px; }
+  }
+  @media (max-width: 900px){
+    .section{ padding: 80px 5vw; }
+    .about-avatar img{ width: 100%; }
+  }
+  @media (max-width: 700px){
+    .section{ padding: 68px 5vw; }
+    .cta-row{ flex-wrap: wrap; }
+    .btn{ width: 100%; justify-content: center; }
+    .contact-social-links{ flex-wrap: wrap; gap: 10px; }
+  }
+  @media (max-width: 480px){
+    .section{ padding: 56px 4vw; }
+    #whatsapp-container{ bottom: 12px; right: 12px; }
+    .btn-whatsapp-pulse img{ height: 64px !important; width: 64px !important; }
+  }
+  
   
